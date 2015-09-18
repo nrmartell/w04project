@@ -1,0 +1,17 @@
+body {
+  color: blue;
+  background-color: pink;
+
+}
+
+div {
+
+color: red;
+
+}
+
+.center_div {
+
+  margin: auto 20 20 20 ;
+  display: inline-block;
+}

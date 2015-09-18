@@ -1,0 +1,23 @@
+body {
+  color: blue;
+  background-color: pink;
+
+}
+
+div {
+
+color: red;
+
+}
+
+ .container-fluid {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+   margin-right: 50%;
+}
+
+h1{
+	text-align: center;
+}
+ 

@@ -1,17 +1,34 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
+enable :sessions
+
 before  do
 	
+	# session[:growl_time] || = []
 end
 
 #routes
 
 get '/' do
 
+
 erb :index
 
 end
+
+get '/add_post' do
+
+
+
+erb :index
+	end
+
+post '/add_post' do 
+	session[:growl_time] << params[:growl_it]
+@item_name = params[:growl_it]
+	erb :index
+end 
 
 # //  method to accept input (get method). This ,method should also check for number of characters.
 # // session to store all the growls
